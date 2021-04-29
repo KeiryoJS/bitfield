@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    /* Basic */
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "CommonJS",
+    "skipLibCheck": true,
+
+    /* Compiling */
+    "inlineSourceMap": false,
+    "declaration": false,
+    "allowJs": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Strict Options */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "importsNotUsedAsValues": "error",
+
+    /* Types */
+    "types": [ "node" ],
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+
+    /* Module Resolution */
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./src/**/*",
+    "**/*.test.*"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}

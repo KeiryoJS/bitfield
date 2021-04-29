@@ -1,0 +1,36 @@
+{
+  "name": "@neocord/project",
+  "version": "1.0.0",
+  "description": "A project in the neocord family!",
+  "main": "dist/index.js",
+  "repository": "git@github.com:neo-cord/typescript-project.git",
+  "author": "neocord team",
+  "license": "Apache-2.0",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc --removeComments",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "yarn lint --fix",
+    "test": "ava"
+  },
+  "files": [
+    "!*.test.*",
+    "!*.spec.*",
+    "dist/",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@ava/typescript": "1.1.1",
+    "@neocord/eslint-config": "neo-cord/eslint-config",
+    "@types/node": "14.14.41",
+    "@typescript-eslint/eslint-plugin": "4.22.0",
+    "@typescript-eslint/parser": "4.22.0",
+    "ava": "3.15.0",
+    "eslint": "7.25.0",
+    "typescript": "4.2.4"
+  }
+}

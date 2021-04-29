@@ -1,0 +1,6 @@
+{
+  "extends": "@neocord",
+  "parserOptions": {
+    "project": "./tsconfig.eslint.json"
+  }
+}
