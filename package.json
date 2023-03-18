@@ -24,7 +24,7 @@
     "README.md"
   ],
   "devDependencies": {
-    "@ava/typescript": "1.1.1",
+    "@ava/typescript": "4.0.0",
     "@neocord/eslint-config": "neo-cord/eslint-config",
     "@types/node": "14.14.41",
     "@typescript-eslint/eslint-plugin": "4.22.0",
